@@ -1,0 +1,232 @@
+
+// o to 340px
+@media (max-width:400px){
+  .hero-text-box > h1{
+    font-size: 2.4rem !important;
+  }
+  .vision-text{
+    font-size: 1.2rem !important;
+  }
+  .send{
+    margin-top: 1rem;
+  }
+  .send-btn{
+    margin-top: 5rem;
+  }
+}
+
+// o to 460px
+@media screen and (min-width:0px)and (max-width: 600px) {
+  .nav-link{
+    padding-left: 0 !important;
+  }
+  .hero-img-box{
+    width: 100%;
+    position: inherit !important;
+    margin: auto;
+    margin-top: -5rem;
+    display: grid;
+    place-items: center;
+  }
+  .stats{
+    flex-direction: column;
+  }
+  .footer-links{
+    gap:0.4rem;
+  }
+  .hero-text-box > h1{
+    font-size: 2.7rem;
+  }
+  .hero-text-box{
+    width: 100%;
+  }
+  .hero{
+    padding: 3rem 2rem;
+    height: 29rem;
+  }
+  .container-fluid{
+    padding: 0 2.2rem !important;
+  }
+  .hero-button{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1rem;
+  }
+  .ritvik{
+    width: 11rem;
+    height: 11rem;
+  }
+  .padding{
+    padding: 2rem 2.2rem !important;
+  }
+  .heading{
+    font-size: 1.5rem;
+  }
+  .vision-text{
+    font-size: 1.3rem;
+  }
+  .footer-brand{
+    font-size: 0.9rem;
+  }
+  .footer{
+    font-size: 0.7rem;
+  }
+  .footer-social-row{
+    flex-direction: column;
+    gap: 1.7rem;
+  }
+  .socials{
+    flex-direction: row;
+    font-size: 0.9rem;
+  }
+  .social-row{
+    gap: 4.5rem;
+  }
+  .foot-link{
+    font-size: 0.9rem;
+  }
+  .contact-form{
+    padding: 20px;
+  }
+  .away{
+    font-size: 1.3rem;
+  }
+  .mail-group{
+    font-size: 0.9rem;
+  }
+  .topics{
+    font-size: 1.5rem;
+  }
+  .card_text_container{
+    padding: 0.8rem;
+    padding-right: 0;
+    padding-left: 1.5rem;
+  }
+  .ring::after{
+    border: 30px solid rgba(168, 139, 235, 0.4);
+  }
+  .ring{
+    border: 50px solid rgba(168, 139, 235, 0.4);
+  }
+  .patreon-card {
+    width: 100%;
+  }
+  .flex-inner{
+    flex-direction: column-reverse;
+  }
+  .service-heading{
+    font-size: 1.5rem;
+    width: fit-content;
+    padding-bottom: 0.5rem;
+  }
+  .leggo{
+    margin: auto;
+    margin-top: 1.56rem;
+  }
+  .service-image{
+    width: 90%;
+  }
+  .service-para{
+    width: 100%;
+  }
+  .img_container_int .image-one{
+    transform: scale(01);
+    height: 135%;
+    width: 400%;
+    position: absolute;
+    bottom: 2px;
+    right: -56px;
+  }
+  .img_container .image{
+    transform: scale(01);
+    height: 135%;
+    width: 400%;
+    position: absolute;
+    bottom: 2px;
+    right: -56px;
+  }
+}
+
+@media screen and (min-width:400px)and (max-width: 550px) {
+  .hero-img-box{
+    margin-top: -5rem !important;
+  }
+  .ritvik{
+    width: 14rem !important;
+    height: 14rem !important;
+  }
+  
+}
+
+@media screen and (min-width:550px)and (max-width: 990px) {
+  .padding{
+    padding: 3rem 4rem !important;
+  }
+  .hero-text-box > h1 {
+    font-size: 3rem;
+  }
+  .hero-button{
+    padding: 0.55rem 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .hero-img-box{
+    width: 30%;
+    position: absolute;
+    top: 9.2rem;
+    right: 38px;
+  }
+  .stats{
+    flex-wrap: wrap;
+  }
+  .ritvik{
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+  .hero{
+    height: 34rem;
+    padding-bottom: 0 !important;
+    padding: 4rem;
+    .foot-link{
+      font-size: 1rem;
+    }
+  }
+  .nav-link{
+    padding-left: 0 !important;
+  }
+  .send{
+    margin-top: 3rem;
+  }
+  .mail-group{
+    font-size:1.2rem;
+  }
+  .card_text_container{
+    padding: 0rem;
+    padding-right: 0;
+    padding-left: 3.5rem;
+  }
+  .topics{
+    font-size: 1.75rem;
+  }
+  .patreon-card{
+    width: 80%;
+  }
+  .flex-inner{
+    flex-direction: column-reverse;
+  }
+  .service-heading{
+    font-size: 1.5rem;
+    width: fit-content;
+    padding-bottom: 0.5rem;
+  }
+  .leggo{
+    margin: auto;
+    margin-top: 1.56rem;
+  }
+  .service-image{
+    width: 90%;
+  }
+  .service-para{
+    width: 100%;
+  }
+}

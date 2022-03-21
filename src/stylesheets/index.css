@@ -1,0 +1,78 @@
+html{
+  scroll-behavior: smooth !important;
+}
+
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('../fonts/GlacialIndifference-Regular.otf');
+}
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('../fonts/GlacialIndifference-Italic.otf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('../fonts/GlacialIndifference-Bold.otf');
+  font-weight: bold;
+}
+
+::selection{
+  background-color: #081058;
+  color: white;
+}
+
+.padding{
+  padding: 3rem 5.5rem;
+}
+
+.center{
+  text-align: center;
+}
+
+.heading{
+  margin-top: 1rem;
+  font-family: 'Cirka';
+  position: relative;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.4rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.heading::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+
+  border-radius: 40px;
+}
+
+.section{
+  color: rgb(0, 0, 0);
+  /* padding: 2rem 3.5rem 2rem 3.5rem; */
+  width: 100%;
+}
+
+.para{
+  font-family: 'Glacial Indifference';
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  text-align: justify;
+}
+
+.white-bg{
+background-color: white;
+}
+
+.blue-bg{
+  background-color: #d4d7f5;
+}

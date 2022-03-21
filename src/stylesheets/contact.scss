@@ -1,0 +1,143 @@
+#contact{
+  position: relative;
+}
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(rgb(77, 45, 151), rgb(168, 139, 235));
+}
+.circles {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  max-width: 970px;
+  place-items: center;
+  position: absolute;
+}
+.circle-1 {
+  height: 190px;
+    width: 190px;
+    top: -1.75rem;
+    left: 0;
+}
+.circle-2 {
+  height: 200px;
+  width: 200px;
+  bottom: -1.75rem;
+  right: 0;
+  opacity: 0.8;
+}
+/* Background circles end */
+
+.card-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.contact-form {
+  padding: 30px;
+  position: relative;
+  max-height: 630px;
+  width: 100%;
+  max-width: 830px;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-family: 'Glacial Indifference';
+}
+
+.mail-group{
+  color: white;
+  font-size: 1.3rem;
+}
+
+.fa-at{
+  font-size: 1rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.away{
+  font-size: 1.5rem;
+  margin-bottom: 3rem !important;
+}
+
+.field{
+  margin-bottom: 1rem;
+  display: flex;
+  position: relative;
+  padding-bottom: 10px;
+  gap: 1.75rem;
+}
+
+.field::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+}
+
+.dim{
+  color: rgba(255, 255, 255, 0.6);
+  width: 10%;
+  // margin-right: 2rem;
+}
+
+
+.send{
+  margin-top: 5rem;
+}
+
+.send-btn{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  background: black;
+  border-radius: 6px;
+  padding: 0.5rem 1.7rem;
+  letter-spacing: 2px;
+  border: 1px solid black;
+}
+
+.send-btn:hover{
+  color: black;
+  background: white;
+}
+
+.ring {
+  z-index: -1;
+  position: absolute; /* All items inside card should have absolute position */
+}
+
+/* The two rings on the card background */
+.ring {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background: transparent;
+  border: 50px solid rgba(168, 139, 235, 0.7);
+  bottom: -250px;
+  right: -250px;
+  box-sizing: border-box;
+}
+
+.ring::after {
+  content: "";
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background: transparent;
+  border: 30px solid rgba(168, 139, 235, 0.7);
+  bottom: -80px;
+  right: -110px;
+  box-sizing: border-box;
+}

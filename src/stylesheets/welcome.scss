@@ -1,0 +1,36 @@
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stat-each{
+  width: 100%;
+  text-align: -webkit-center;
+}
+
+.counter-text{
+  font-family: 'Glacial Indifference';
+  width: 15ch;
+}
+
+.counter{
+  font-family: 'Cirka';
+  font-size: 1.6rem;
+  position: relative;
+  padding-left: 1.02rem;
+  color: #6d35f0
+  // background:  #a88beb 
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+}
+
+.counter::before{
+    content: "";
+    position: absolute;
+    height: 54%;
+    background-color: #6d35f0;
+    width: 3px;
+    left: 0;
+    top: 9.4px;
+}

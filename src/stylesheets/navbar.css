@@ -1,0 +1,48 @@
+@import url(//db.onlinewebfonts.com/c/601d39e6f285498e3065a0ac145d190d?family=Cirka);
+
+.nav-right{
+  justify-content: flex-end !important;
+}
+nav{
+  background: rgba(0, 0, 0, 0.9);
+  font-family: 'GlacialIndifferenceBold';
+  letter-spacing: 3px;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(315deg, #a88beb 0%,  #f8ceec 74%);
+
+    /* border-image: linear-gradient(90deg, grey, #00053d, grey) */
+    
+    border-image-slice: 1;
+    width:100%;
+    backdrop-filter: blur(10px);
+}
+
+.nav-link{
+  text-transform: uppercase;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-family: 'Glacial Indifference';
+}
+
+.nav-link:hover{
+  color: rgb(255, 255, 255) !important;
+}
+
+.container-fluid{
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+.navbar-brand{
+    font-family:"Glacial Indifference";
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+
+.navbar-brand:hover{
+  color: rgba(255, 255, 255, 1) !important;
+}
+
